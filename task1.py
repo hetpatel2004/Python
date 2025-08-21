@@ -1,24 +1,23 @@
+# Write a program to check whether a number is positive, negative, or zero.
+# num =  int(input("Enter any number po or nagative :"))
 
- marks = int(input("Enter the marks"))
-    if marks < 0 or marks >100:
-        print("Invalid input")
-        break
-    total += marks
-print(total)
+# if ( num > 0):
+#     print("Number is positive:-", num)
+# elif ( num < 0):
+#     print("Number is nagative:-", num)
+# else:
+#     print("its Zero:-" ,num)
 
+# Write a program to determine whether a person is a child, teenager, or adult based on age
+ 
 
-if valid:
-    percentage = total / 5
-    print("Total Marks",total)
-    print(percentage)
+age = int(input("Enter your age :"))
 
-
-    if percentage >= 80 and percentage < 100:
-        print("Grade A")
-    elif percentage >=70 and percentage <79:
-        print("Grade B")
-    elif percentage >= 60 and percentage < 69:
-        print("Grade C")
-    elif(percentage <=39):
-        print("Fail")
-    
+if age>=0 or age<=13 :
+    print("You are Adult")
+elif age>=13 or age<=19 :
+ print(" you are  teenager")
+elif age >= 19 :
+   print("you are adult ")
+else:
+   print( " not courect number ")
