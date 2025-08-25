@@ -74,8 +74,42 @@
 # print("False means it's 'odd' number and true if the given number is 'even'")
 # print("your output is :",even2)
 
+# 9.Write a program that accepts a string and prints its length.------------------------------------------
 
-# 9.Write a program that checks whether the entered number is positive, negative, or zero.------------------------------------------
+# val = str(input("print any string i willprint length for you :"))
+
+# print(len(val))
+
+
+# 10.Store a boolean value (True/False) in a variable and use it in a decision (if condition).------------------------------------------
+
+# value = bool(input("Enter only true or false :"))
+
+# if value == True :
+#     print("true")
+# else :
+#     print("false")
+
+# 11.Write a program to check whether a string is a palindrome or not.------------------------------------------
+
+# 12Convert a float number to an integer and print both values.------------------------------------------
+
+# num1 = 7.4
+# print("Num before casting =",num1, type (num1))
+# type_casting = int(num1)
+
+# print("Num after type casting",type_casting,type(type_casting))
+
+
+# 13.Take a string input and display the first and last character.------------------------------------------
+
+# input = input(" Enter string i will print first and last later of string for you :")
+
+# print( input [0])
+# print( input [-1])
+
+
+# 14.Write a program that checks whether the entered number is positive, negative, or zero.------------------------------------------
 
 # num = int(input("Enter a number i will check it is positive nagitive or zero :"))
 
@@ -87,7 +121,7 @@
 #     print("its Zero")
 
 
-# 10.Concatenate two strings and print the result with proper formatting.------------------------------------------
+# 15.Concatenate two strings and print the result with proper formatting.------------------------------------------
 
 # str1 = input("Enter your name :")
 # str2 = input("Enter your last name :")
@@ -97,14 +131,81 @@
 # print("Your full name ",total)
 
 
-# 11.Write a program that calculates the square and cube of a given number using exponent operator **.------------------------------------------
+# 16.Write a program that calculates the square and cube of a given number using exponent operator **.------------------------------------------
 
-# 12.Demonstrate the use of // (floor division) and % (modulus) operators.------------------------------------------
-# 13.Write a program that takes three numbers and prints the largest one using comparison operators.------------------------------------------
-# 14.Use logical operators (and, or, not) in a program to check eligibility for voting (age ≥ 18 and citizenship = True).------------------------------------------
-# 15.Write a program to check if a number is divisible by both 3 and 5.------------------------------------------
-# 16.Show the difference between == and is operators with examples.------------------------------------------
-# 17.Write a program to calculate simple interest (SI = PRT/100).------------------------------------------
-# 18.Demonstrate assignment operators (+=, -=, *=, /=, etc.) on a variable.------------------------------------------
-# 19.Write a program to calculate BMI (Body Mass Index).------------------------------------------
-# 20.Create a program to find the remainder when one number is divided by another.------------------------------------------
+# num1 = int(input("Enter number calculates the square and cube of a given number :"))
+
+# square = num1*2
+# cube = num1**2
+
+# print("Square is :", square)
+# print("cube is ",cube)
+
+
+# 17.Demonstrate the use of // (floor division) and % (modulus) operators.------------------------------------------
+
+# num2 = int(input("Enter the value for calculating division and '%' operator :"))
+# num1 = int(input("Enter the smaller value to calculate devisoin :"))
+
+# div = num2 // num1 
+# modulus = num2 % num1 
+
+# print("Division", div)
+# print("modulus", modulus)
+
+
+# *18.Write a program that takes three numbers and prints the largest one using comparison operators.------------------------------------------
+
+# print("Entre three number I will print largest one using comparison :")
+# num1 = int(input("Enter first number "))
+# num2 = int(input("Enter second number "))
+# num3 = int(input("Enter third number "))
+
+# largest = 
+
+#* 19.Use logical operators (and, or, not) in a program to check eligibility for voting (age ≥ 18 and citizenship = True).------------------------------------------
+
+# age = int(input("Enter your age :"))
+# c_Status = bool(input("Enter trur if you are citizen and false if you dont have it :"))
+
+# if (age > 18 and c_Status == True):
+#     print("you are eligibility")
+# else:
+#     print("You may try again lator ")
+
+#20.Write a program to check if a number is divisible by both 3 and 5.------------------------------------------
+
+# num = 7
+
+# three = num % 3 == 0  and num % 5 == 0 
+
+# print(three)
+# print("True if it will be devidibal false means can't" ,three)
+
+
+# 21.Show the difference between == and is operators with examples.------------------------------------------
+
+# num = 10
+# print(num) 
+# between = num == 10 
+# print("It will print true if condition matchis or will show false :", between)
+
+# num2 = 20
+# print(num2)
+# between2 = num == 15 
+# print("It will print true if condition matchis or will show false :", between2)
+
+# 22.Write a program to calculate simple interest (SI = PRT/100).------------------------------------------
+
+amount = int(input("Enter a total number of amount :"))
+roi = int(input("Enter the rate or intrust :"))
+time = int(input("Enter number of months :"))
+
+sum = (amount * roi * time) / 100
+
+print("Hear is the intrust :",sum)
+
+# 23.Demonstrate assignment operators (+=, -=, *=, /=, etc.) on a variable.------------------------------------------
+
+# 24.Write a program to calculate BMI (Body Mass Index).------------------------------------------
+# 25.Create a program to find the remainder when one number is divided by another.------------------------------------------
