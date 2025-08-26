@@ -197,15 +197,136 @@
 
 # 22.Write a program to calculate simple interest (SI = PRT/100).------------------------------------------
 
-amount = int(input("Enter a total number of amount :"))
-roi = int(input("Enter the rate or intrust :"))
-time = int(input("Enter number of months :"))
+# amount = int(input("Enter a total number of amount :"))
+# roi = int(input("Enter the rate or intrust :"))
+# time = int(input("Enter number of months :"))
 
-sum = (amount * roi * time) / 100
+# sum = (amount * roi * time) / 100
 
-print("Hear is the intrust :",sum)
+# print("Hear is the intrust :",sum)
 
 # 23.Demonstrate assignment operators (+=, -=, *=, /=, etc.) on a variable.------------------------------------------
 
+# num1 = int(input("Enter a number :"))
+# num1 += 10 # (num1 -= 10) (num1 *= 10) (num1 /= 10) (num1 += 10)
+# print(num1)
+
+
 # 24.Write a program to calculate BMI (Body Mass Index).------------------------------------------
+
+# weight =  int(input("Enter your weight :"))
+# height =  float(input("Enter your hight :"))
+# sum = weight / (height**2)
+
+# print("Sum of Body mass index :",sum)
+
 # 25.Create a program to find the remainder when one number is divided by another.------------------------------------------
+
+# num1 = int(input("Enter the first number for devision :"))
+# num2 = int(input("Enter the second number for devision :"))
+
+# div = num1 * num2
+# print("sum of devision :",div)
+# remainder = num1 % num2
+# print("sum of devision :",remainder)
+
+# 26.Write a program to check if a given year is a leap year. ------------------------------------------
+
+# year = int(input("Enter the year to check it,s leep year or not :"))
+
+# if (year%400 ==0) or (year%4==0 and year%100!=0):
+#     print("Leap year")
+# else:
+#     print("Not leap year.")    
+
+
+# 27.Take marks of a student and display the grade (A, B, C, D, Fail).------------------------------------------
+
+# marks = int(input("Enter marks i will print grade :"))
+
+# if marks >= 90 and marks < 100 :
+#     print("You scored A grade",marks)
+# elif marks >= 80 and marks < 90 :
+#     print("You scored B grade",marks)
+# elif marks >= 70 and marks < 80 :
+#     print("You scored C grade",marks)
+# elif marks >= 60 and marks < 70 :
+#     print("You scored D grade",marks)
+# else:
+#     print("Try Again Next time :",marks) 
+
+# 28.Write a program to check if a character is a vowel or consonant. ------------------------------------------
+
+# cha = input("Enetr any character i will check the given char is vovel or not :")
+# if cha == "a" or cha== "e" or cha== "i" or cha=="o" or cha== "u":
+#     print("character is vowel")
+# else:
+#     print("Its not a vovel")
+
+# 29.Create a login system that asks for username and password. If correct, print "Login successful".------------------------------------------
+
+# name = input("Enter courect User-name @ is compulsory :")
+# pas = input("Enetr 8 digit password :")
+
+# if (name != "@" and pas.__len__ == 8) :
+#     print("incourect user name or password :")
+# else :
+#     print("login Successfull")
+
+
+#*30.Write a program to classify a person’s age group (Child, Teen, Adult, Senior).------------------------------------------
+
+# age = int(input("Enetr your age :"))
+# if age > 0 and age <= 150:
+#     if age > 0 and age <= 13 :
+#         print("Child")
+#     elif age > 13 and age <=18 :
+#         print("Teen")
+#     elif age > 18  and age <= 30 :
+#         print("Adult")
+#     else:
+#         print("senior") 
+# else:
+#  print("valid age between 1 to 150")
+
+
+#*31.Check if a number is prime.------------------------------------------
+
+# num = int(input("Enter the number :"))
+# num1 = num
+# sum = (num % num1) 
+# if sum == 0:
+#     print("Yes ",sum," is prime number :")
+# else :
+#     print("no ",sum," is not a prime number")
+
+
+# 32.Write a program to find the smallest of three numbers.------------------------------------------
+
+# num1 = int(input("Enter one number :"))
+# num2 = int(input("Enter second number :"))
+# num3 = int(input("Enter third number :"))
+
+# if num1 > num2 and num1 > num3:
+#  print(num1,"is largest")
+# elif num2 > num1 and num2 > num3:
+#  print(num2, "is largest")
+# # elif num3 > num2 and num3 > num1:
+# else:
+#  print(num3," is largest ")
+
+
+# 33.Create a simple calculator using if-elif-else (add, subtract, multiply, divide).------------------------------------------
+num1 = int(input("Enter number first for calculation"))
+num2 = int(input("Enter number  second calculation"))
+num3 = int(input("Enter number third for calculation"))
+
+
+
+# 34.Take two numbers and check if the first is a multiple of the second.------------------------------------------
+# 35.Write a program to check if a number is a perfect square.------------------------------------------
+# 36.Create a discount calculator: if purchase > 1000 give 10% discount else no discount.------------------------------------------
+# 37.Write a program to check whether a given character is uppercase, lowercase, digit, or special symbol.------------------------------------------
+# 38.Ask the user to enter their exam marks and print "Pass" if ≥ 40 else "Fail".------------------------------------------
+# 39.Write a program to check whether the entered password length is strong (≥8) or weak.------------------------------------------
+# 40.Write a program that checks whether a number ends with digit 0.------------------------------------------
