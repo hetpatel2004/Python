@@ -330,3 +330,13 @@ num3 = int(input("Enter number third for calculation"))
 # 38.Ask the user to enter their exam marks and print "Pass" if ≥ 40 else "Fail".------------------------------------------
 # 39.Write a program to check whether the entered password length is strong (≥8) or weak.------------------------------------------
 # 40.Write a program that checks whether a number ends with digit 0.------------------------------------------
+# 41.Print all even numbers from 1 to 50.
+# 42.Print multiplication table of a number entered by the user.
+# 43.Write a program to find the factorial of a number using a loop.
+# 44.Print Fibonacci sequence up to n terms.
+# 45.Print the sum of digits of a number.
+# 46.Write a program to reverse a number using loops.
+# 47.Write a program to count the number of vowels in a given string.
+# 48.Print a pattern:# .4
+# 49.Write a program to check whether a number is an Armstrong number.
+# 50.Write a program to print all prime numbers between 1 and 100.
