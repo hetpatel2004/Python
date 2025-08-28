@@ -317,16 +317,60 @@
 
 
 # 33.Create a simple calculator using if-elif-else (add, subtract, multiply, divide).------------------------------------------
-num1 = int(input("Enter number first for calculation"))
-num2 = int(input("Enter number  second calculation"))
-num3 = int(input("Enter number third for calculation"))
+# num1 = int(input("Enter number first for calculation :"))
+# num2 = int(input("Enter number  second calculation :"))
+# operation = input("Enter any one opration which you like to parform but from this given option ( + - * / ) :")
 
-
+# if (operation != "+", operation != "-" , operation != "*" , operation != "/"):
+#     if operation == "+":
+#         print( num1 + num2)
+#     elif operation == "-":
+#         print( num1 - num2)
+#     elif operation == "*":
+#         print( num1 * num2)
+#     elif operation == "/":
+#         print( num1 / num2)
+#     else :
+#         print("sorry wrong operator")
+# else:
+#     print("unvalid oprator")
 
 # 34.Take two numbers and check if the first is a multiple of the second.------------------------------------------
-# 35.Write a program to check if a number is a perfect square.------------------------------------------
+
+# print("Insurt two numbers and check if the first is a multiple of the second or not")
+# num1 = int(input("Enter first number :"))
+# num2 = int(input("Enter second number :"))
+# sum = num1 % num2
+# if sum == 0 :
+#     print("yes the first nuber is a multiple of the second :")
+# else :
+#     print("Its not a multiple of numbre two ")
+
+
+#*35.Write a program to check if a number is a perfect square.------------------------------------------
+
+# num = int(input("Insurt a number to check if a number is a perfect square or not :"))
+
+# sum = num * 2 
+# res = sum - sum 
+# if res == 0:
+#     print("yes")
+# else:
+#     print("no")
+
+
 # 36.Create a discount calculator: if purchase > 1000 give 10% discount else no discount.------------------------------------------
+
+# amo = int(input("Enter Total amount of purchase"))
+
+# if amo > 1000:
+#     print("congratulation you get '10%' discount on your purchase :")
+# else :
+#     print("sorry you can't get discount")
+
+
 # 37.Write a program to check whether a given character is uppercase, lowercase, digit, or special symbol.------------------------------------------
+
 # 38.Ask the user to enter their exam marks and print "Pass" if ≥ 40 else "Fail".------------------------------------------
 # 39.Write a program to check whether the entered password length is strong (≥8) or weak.------------------------------------------
 # 40.Write a program that checks whether a number ends with digit 0.------------------------------------------
