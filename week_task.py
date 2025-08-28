@@ -371,12 +371,73 @@
 
 # 37.Write a program to check whether a given character is uppercase, lowercase, digit, or special symbol.------------------------------------------
 
+# char = input("Enter any character :")
+
+# if char.uper():
+#     print("Enter its upercase :")
+# elif char.lower():
+#     print("Given character is in lower case :")
+# elif (char == "@" , char == "#", char == "$", char == "!", char == "%" , char == "&" , char == "*" , char == "^"):
+#     print("special char")
+# else :
+#     print("Number")
+
 # 38.Ask the user to enter their exam marks and print "Pass" if ≥ 40 else "Fail".------------------------------------------
+# mark = int(input("Enter total marks :"))
+# if mark <= 100 and mark >= 0 :
+#     if mark >= 40:
+#         print("Pass")
+#     else:
+#         print("fail") 
+# else :
+#     print(" not a valid mark please insurt correct value")
+
 # 39.Write a program to check whether the entered password length is strong (≥8) or weak.------------------------------------------
+
+# pas = input("Enter you password it will check your password is strong or not :")
+# if len(pas) >= 8:
+#     print("insurted password is strong")
+# else:
+#     print("password is weak")
+
+
 # 40.Write a program that checks whether a number ends with digit 0.------------------------------------------
+
+# num = int(input("Enter any number which contain '0' at the end :"))
+
+# if num % 10 == 0  :
+#     print("condition match ")
+# else:
+#     print("not having 0 at the end")
+
+
 # 41.Print all even numbers from 1 to 50.
+
+# for i in range(1,50):
+#     if i % 2 == 0:
+#         print(i)
+
+
 # 42.Print multiplication table of a number entered by the user.
+
+# num = int(input("Enter a number to print table of it :"))
+
+# for i in range(1,11):
+#     sum = num * i 
+#     # while (i * )
+#     print(num,"x",i,"=",sum)
+    
+
 # 43.Write a program to find the factorial of a number using a loop.
+
+# num = int(input("Enter the number to find factorial :"))
+
+# for i in range(num , 1):
+#     print(i)
+#     sum = num * i 
+#     print(sum)
+
+
 # 44.Print Fibonacci sequence up to n terms.
 # 45.Print the sum of digits of a number.
 # 46.Write a program to reverse a number using loops.
