@@ -439,9 +439,13 @@
 
 
 # 44.Print Fibonacci sequence up to n terms.
+
 # 45.Print the sum of digits of a number.
+
 # 46.Write a program to reverse a number using loops.
 # 47.Write a program to count the number of vowels in a given string.
-# 48.Print a pattern:# .4
+# 48.Print a pattern:
+# for i in range (1,5):
+#         print("*" * i)
 # 49.Write a program to check whether a number is an Armstrong number.
 # 50.Write a program to print all prime numbers between 1 and 100.
