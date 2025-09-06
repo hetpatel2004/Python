@@ -430,12 +430,13 @@
 
 # 43.Write a program to find the factorial of a number using a loop.
 
-# num = int(input("Enter the number to find factorial :"))
+num = int(input("Enter the number to find factorial :"))
 
-# for i in range(num , 1):
-#     print(i)
-#     sum = num * i 
-#     print(sum)
+for i in range(num , 1):
+    print(i)
+    sum = num * i 
+    print("Funal calculation",sum)
+
 
 
 # 44.Print Fibonacci sequence up to n terms.
